@@ -1,0 +1,30 @@
+.gameWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gameBorder {
+  padding: 0.5rem;
+  border: 5px solid gold;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.gameBorder ol,
+.gameBorder ol li {
+  display: flex;
+}
+
+.gameButtons {
+  width: 4rem;
+  height: 4rem;
+  font-size: larger;
+  background-color: black;
+  color: gold;
+  border-color: gold;
+}
+
+.gameButtons:hover {
+  background-color: hsl(0, 0%, 10%);
+}

@@ -1,0 +1,25 @@
+.playerWrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 0%;
+}
+
+.playerWrapper > li span,
+.playerWrapper button {
+  margin-left: 1rem;
+}
+
+.active {
+  border: 2px solid gold;
+  padding: 0.5rem;
+}
+
+.playerWrapper button {
+  cursor: pointer;
+  padding: 0.25rem 1rem;
+  background-color: gold;
+  color: black;
+  font-weight: 600;
+}
